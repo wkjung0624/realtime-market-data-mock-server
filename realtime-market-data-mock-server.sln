@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "realtime-market-data-mock-server", "realtime-market-data-mock-server.csproj", "{4848EDE4-183D-450A-BEBD-B4F650C23B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4848EDE4-183D-450A-BEBD-B4F650C23B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4848EDE4-183D-450A-BEBD-B4F650C23B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4848EDE4-183D-450A-BEBD-B4F650C23B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4848EDE4-183D-450A-BEBD-B4F650C23B92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE3E7480-7127-4574-BEF5-ADD75FC35DF1}
+	EndGlobalSection
+EndGlobal
