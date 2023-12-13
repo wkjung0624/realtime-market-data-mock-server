@@ -1,0 +1,15 @@
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.AssemblyInfoInputs.cache
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.AssemblyInfo.cs
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.csproj.CoreCompileInputs.cache
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.sourcelink.json
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/bin/Debug/net8.0/realtime-market-data-mock-server
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/bin/Debug/net8.0/realtime-market-data-mock-server.deps.json
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/bin/Debug/net8.0/realtime-market-data-mock-server.runtimeconfig.json
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/bin/Debug/net8.0/realtime-market-data-mock-server.dll
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/bin/Debug/net8.0/realtime-market-data-mock-server.pdb
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.dll
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/refint/realtime-market-data-mock-server.dll
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.pdb
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/realtime-market-data-mock-server.genruntimeconfig.cache
+/Users/mightyotter/Documents/GitHub/realtime-market-data-mock-server/obj/Debug/net8.0/ref/realtime-market-data-mock-server.dll
