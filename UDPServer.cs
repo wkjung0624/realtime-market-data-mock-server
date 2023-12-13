@@ -15,6 +15,11 @@ namespace Server
         private int port;
         private LinkedList<EndPoint> observerList = new LinkedList<EndPoint>();
         private uint observerCnt = 0;
+
+        private const byte SERVER_REG_PAYLOAD     = 0x01;
+        private const byte RT_PRICE_SUB_PAYLOAD   = 0x10;
+        private const byte RT_PRICE_UNSUB_PAYLOAD = 0x20;
+        private const byte SERVER_DEREG_PAYLOAD   = 0xFF;
         
         public void Initialize(int port=5555)
         {
@@ -38,13 +43,21 @@ namespace Server
                 IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
                 EndPoint remote = (EndPoint)(sender);
 
-                byte[] _data = new byte[4096];
+                byte[] data = new byte[4096];
 
-                // ReceiveFrom()
-                server.ReceiveFrom(_data, ref remote);
-                observerCnt++;
-                
-                Console.WriteLine("옵저버 등록");
+                server.ReceiveFrom(data, ref remote);
+
+                if (data[0] == SERVER_REG_PAYLOAD)
+                {
+                    observerList.AddLast(remote);
+                    observerCnt++;
+                    Console.WriteLine("옵저버 등록");
+                }
+                if (data[0] == SERVER_DEREG_PAYLOAD)
+                {
+                    /* 옵저버 삭제 기능 구현 필요 */
+                    observerCnt--;
+                }
             }
         }
         public void Notify(IPEndPoint to, byte[] payload)
